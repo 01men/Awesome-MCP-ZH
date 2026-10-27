@@ -1184,7 +1184,7 @@ MCP 客户端是 AI 的“操作台”，以下是几个热门选择：
 | [Jam0k/Threat-Intelligence-MCP](https://github.com/Jam0k/Threat-Intelligence-MCP) | ThreatCluster 威胁情报：事件聚类、已验证 IOC、CVE/KEV/EPSS 查询、勒索软件泄露站受害者、实体画像。托管端点 `https://threatcluster.io/mcp`，或 `npx -y threatcluster-mcp`，需免费 API key。 | 官方实现 (ThreatCluster) 🎖️, Node/Python 开发, 云端/本地 🏠☁️, 威胁情报。 |
 | [keystash](https://github.com/thu-lawyer/keystash) | 本地单文件加密的密钥库，`keystash mcp` 把它变成 MCP 服务器：AI 能把密钥注入命令的环境变量、复制进剪贴板或生成新密钥，但始终看不到明文值；另有 `doctor` 扫描散落各处的明文密钥。 | 社区实现, Python 开发 🐍, 本地运行 🏠, 跨平台 🍎🪟🐧（Touch ID 解锁为 macOS）, MIT, `pip install keystash` / `uvx keystash mcp`, 8 个工具。 |
 | [vmoranv/jshookmcp](https://github.com/vmoranv/jshookmcp) | 面向前端 / JavaScript 逆向的 MCP 工作区：运行时 Hook、网络拦截（含 TLS keylog）、bundle 反混淆、CDP 控制真实 Chrome、WASM 反汇编；735 工具 / 36 域。search-first —— 只注入约 3K token 的工具摘要、按需激活域，避免 735 个 schema 撑爆上下文。 | 社区实现, TypeScript 开发 📇, 本地运行 🏠, 前端逆向工程 (JS/WASM)。 |
-| [元冰可 YBK](https://github.com/01men/ybkkasi) | 企业 AI 资产治理平台，自身即 MCP Server（86 个注册工具，全部声明最小权限）：把 MCP 服务 / Skill / Agent / AI 应用统一成一套台账，覆盖部署灰度与回滚、按身份过滤 `tools/list`、委托令牌 aud 绑定、多级审批与审计链、成本按部门 × Agent × Skill 三维归因。自托管单进程，无托管依赖。 | 社区实现, TypeScript 开发 📇（Node 原生运行无构建）, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 27 个插件包, `docker compose up` 60 秒起演示实例。 |
+| [元冰可 YBK](https://github.com/01men/ybkkasi) | 企业 AI 资产治理平台，自身即 MCP Server（86 个注册工具，全部声明最小权限）：把 MCP 服务 / Skill / Agent / AI 应用统一成一套台账，覆盖部署灰度与回滚、按身份过滤 `tools/list`、委托令牌 aud 绑定、多级审批与审计链、成本按部门 × Agent × Skill 三维归因。自托管单进程，无托管依赖。 | 社区实现, TypeScript 开发 📇（Node 原生运行无构建）, 本地运行 🏠, 跨平台 🍎🪟🐧, MIT, 29 个插件包, `docker compose up` 60 秒起演示实例。 |
 
 ---
 
